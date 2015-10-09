@@ -1,0 +1,148 @@
+﻿<Window x:Class="WPF_Final_v2.ClientPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ClientPage" Height="600" Width="730"
+        Background="#FFF78743">
+    <Grid>
+        <GroupBox Header="我擁有的牌:" HorizontalAlignment="Left" Height="203" Margin="305,306,0,0" VerticalAlignment="Top" Width="407">
+            <Grid Background="#FFFCFCFC" Margin="0,0,-2,0">
+                <Button x:Name="send_bat" HorizontalAlignment="Left" Height="53" Margin="36,102,0,0" VerticalAlignment="Top" Width="39" Click="pick_handcard">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Pictures/bat.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="send_bug" HorizontalAlignment="Left" Height="53" Margin="80,102,0,0" VerticalAlignment="Top" Width="39" Click="pick_handcard">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Pictures/bug.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="send_cockroach" HorizontalAlignment="Left" Height="53" Margin="124,102,0,0" VerticalAlignment="Top" Width="39" Click="pick_handcard">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Pictures/cockroach.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="send_fly" HorizontalAlignment="Left" Height="53" Margin="168,102,0,0" VerticalAlignment="Top" Width="39" Click="pick_handcard">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Pictures/fly.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="send_rat" HorizontalAlignment="Left" Height="53" Margin="212,102,0,0" VerticalAlignment="Top" Width="39" Click="pick_handcard">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Pictures/rat.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="send_scorpion" HorizontalAlignment="Left" Height="53" Margin="256,102,0,0" VerticalAlignment="Top" Width="39" Click="pick_handcard">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Pictures/scorpion.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="send_spider" HorizontalAlignment="Left" Height="53" Margin="300,102,0,0" VerticalAlignment="Top" Width="39" Click="pick_handcard">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Pictures/spider.png"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="send_toad" HorizontalAlignment="Left" Height="53" Margin="344,100,0,0" VerticalAlignment="Top" Width="39" Click="pick_handcard">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Pictures/toad.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Label HorizontalAlignment="Left" Height="53" Margin="37,18,0,0" VerticalAlignment="Top" Width="39">
+                    <Label.Background>
+                        <ImageBrush ImageSource="Pictures/bat_blk.jpg"/>
+                    </Label.Background>
+                </Label>
+                <Label HorizontalAlignment="Left" Height="53" Margin="80,18,0,0" VerticalAlignment="Top" Width="39                        ">
+                    <Label.Background>
+                        <ImageBrush ImageSource="Pictures/bug_blk.jpg"/>
+                    </Label.Background>
+                </Label>
+                <Label HorizontalAlignment="Left" Height="53" Margin="125,18,0,0" VerticalAlignment="Top" Width="39                        ">
+                    <Label.Background>
+                        <ImageBrush ImageSource="Pictures/cockroach_blk.jpg"/>
+                    </Label.Background>
+                </Label>
+                <Label HorizontalAlignment="Left" Height="53" Margin="169,18,0,0" VerticalAlignment="Top" Width="39                        ">
+                    <Label.Background>
+                        <ImageBrush ImageSource="Pictures/fly_blk.jpg"/>
+                    </Label.Background>
+                </Label>
+                <Label HorizontalAlignment="Left" Height="53" Margin="212,18,0,0" VerticalAlignment="Top" Width="39                        ">
+                    <Label.Background>
+                        <ImageBrush ImageSource="Pictures/rat_blk.jpg"/>
+                    </Label.Background>
+                </Label>
+                <Label HorizontalAlignment="Left" Height="53" Margin="256,18,0,0" VerticalAlignment="Top" Width="39                        ">
+                    <Label.Background>
+                        <ImageBrush ImageSource="Pictures/scorpion_blk.jpg"/>
+                    </Label.Background>
+                </Label>
+                <Label HorizontalAlignment="Left" Height="53" Margin="300,18,0,0" VerticalAlignment="Top" Width="39                        ">
+                    <Label.Background>
+                        <ImageBrush ImageSource="Pictures/spider_blk.png"/>
+                    </Label.Background>
+                </Label>
+                <Label HorizontalAlignment="Left" Height="53" Margin="344,18,0,0" VerticalAlignment="Top" Width="39                        ">
+                    <Label.Background>
+                        <ImageBrush ImageSource="Pictures/toad_blk.jpg"/>
+                    </Label.Background>
+                </Label>
+                <Label x:Name="me_bat_blk" HorizontalAlignment="Left" Height="29" Margin="37,71,0,0" VerticalAlignment="Top" Width="39" RenderTransformOrigin="0.513,-0.034"/>
+                <Label x:Name="me_cocktail_blk" HorizontalAlignment="Left" Height="29" Margin="125,72,0,0" VerticalAlignment="Top" Width="39"/>
+                <Label x:Name="me_bug_blk" HorizontalAlignment="Left" Height="29" Margin="80,71,0,0" VerticalAlignment="Top" Width="39"/>
+                <Label x:Name="me_fly_blk" HorizontalAlignment="Left" Height="29" Margin="169,71,0,0" VerticalAlignment="Top" Width="39" RenderTransformOrigin="0.412,0.069"/>
+                <Label x:Name="me_rat_blk" HorizontalAlignment="Left" Height="29" Margin="212,72,0,0" VerticalAlignment="Top" Width="39"/>
+                <Label x:Name="me_scorpion_blk" HorizontalAlignment="Left" Height="29" Margin="256,71,0,0" VerticalAlignment="Top" Width="39"/>
+                <Label x:Name="me_spider_blk" HorizontalAlignment="Left" Height="29" Margin="300,71,0,0" VerticalAlignment="Top" Width="39"/>
+                <Label x:Name="me_toad_blk" HorizontalAlignment="Left" Height="29" Margin="344,71,0,0" VerticalAlignment="Top" Width="39"/>
+                <Label x:Name="me_bat" HorizontalAlignment="Left" Height="29" Margin="37,155,0,0" VerticalAlignment="Top" Width="38"/>
+                <Label x:Name="me_cocktail" HorizontalAlignment="Left" Height="29" Margin="125,155,0,0" VerticalAlignment="Top" Width="38"/>
+                <Label x:Name="me_bug" HorizontalAlignment="Left" Height="29" Margin="80,155,0,0" VerticalAlignment="Top" Width="39"/>
+                <Label x:Name="me_fly" HorizontalAlignment="Left" Height="29" Margin="168,155,0,0" VerticalAlignment="Top" Width="40"/>
+                <Label x:Name="me_rat" HorizontalAlignment="Left" Height="29" Margin="212,155,0,0" VerticalAlignment="Top" Width="39"/>
+                <Label x:Name="me_scorpion" HorizontalAlignment="Left" Height="29" Margin="256,155,0,0" VerticalAlignment="Top" Width="39"/>
+                <Label x:Name="me_spider" HorizontalAlignment="Left" Height="29" Margin="300,155,0,0" VerticalAlignment="Top" Width="39"/>
+                <Label x:Name="me_toad" HorizontalAlignment="Left" Height="29" Margin="344,153,0,0" VerticalAlignment="Top" Width="39"/>
+            </Grid>
+        </GroupBox>
+        <Button x:Name="cocktail" Content="蟑螂" HorizontalAlignment="Left" Margin="25,342,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="-0.4,-0.273" Click="claim_card" Background="#FF923F1A" Foreground="#FFFCFCFC"/>
+        <Button x:Name="toad" Content="蟾蜍" HorizontalAlignment="Left" Margin="231,363,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="-0.4,-0.273" Click="claim_card" Foreground="#FF1E1E1E" Background="#FFC0BC4E"/>
+        <Button x:Name="fly" Content="蒼蠅" HorizontalAlignment="Left" Margin="231,343,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="-0.4,-0.273" Click="claim_card" Background="#FF60A5B5"/>
+        <Button x:Name="rat" Content="老鼠" HorizontalAlignment="Left" Margin="162,362,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="-0.4,-0.273" Click="claim_card" Background="#FF816843" Foreground="#FFFCFCFC"/>
+        <Button x:Name="bug" Content="臭蟲" HorizontalAlignment="Left" Margin="162,343,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="-0.4,-0.273" Click="claim_card" Background="#FF6A9739" Foreground="#FFFCFCFC"/>
+        <Button x:Name="scorpion" Content="蠍子" HorizontalAlignment="Left" Margin="93,362,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="-0.4,-0.273" Click="claim_card" Background="#FFB4BCBF"/>
+        <Button x:Name="bat" Content="蝙蝠" HorizontalAlignment="Left" Margin="94,342,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="-0.4,-0.273" Click="claim_card" Background="#FF384D77" Foreground="#FFFCFCFC"/>
+        <Button x:Name="spider" Content="蜘蛛" HorizontalAlignment="Left" Margin="25,362,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="-0.4,-0.273" Click="claim_card" Background="#FFD3C9CE"/>
+        <Button x:Name="p1" Content="未加入" HorizontalAlignment="Left" Height="40" Margin="24,415,0,0" VerticalAlignment="Top" Width="70" Click="assign_player"/>
+        <Button x:Name="p5" Content="未加入" HorizontalAlignment="Left" Height="40" Margin="24,453,0,0" VerticalAlignment="Top" Width="68" Click="assign_player"/>
+        <Button x:Name="p4" Content="未加入" HorizontalAlignment="Left" Height="40" Margin="230,415,0,0" VerticalAlignment="Top" Width="70" Click="assign_player"/>
+        <Button x:Name="p3" Content="未加入" HorizontalAlignment="Left" Height="40" Margin="161,415,0,0" VerticalAlignment="Top" Width="70" Click="assign_player"/>
+        <Button x:Name="p2" Content="未加入" HorizontalAlignment="Left" Height="40" Margin="92,415,0,0" VerticalAlignment="Top" Width="70" Click="assign_player" RenderTransformOrigin="0.241,-0.623"/>
+        <Button x:Name="Send" Content="傳送" HorizontalAlignment="Left" Height="96" Margin="259,121,0,0" VerticalAlignment="Top" Width="55" Click="Send_Click"/>
+        <Button x:Name="Guess_1" Content="他說的是實話!" HorizontalAlignment="Left" Height="48" Margin="160,121,0,0" VerticalAlignment="Top" Width="99" Click="Guess_1_Click"/>
+        <Button x:Name="Guess_2" Content="他一定在唬爛!" HorizontalAlignment="Left" Height="48" Margin="160,169,0,0" VerticalAlignment="Top" Width="99" Click="Guess_2_Click"/>
+        <TextBox x:Name="play_log" HorizontalAlignment="Left" Height="42" Margin="16,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Text="你的動作..."/>
+        <Label Content="選擇你要宣稱這張牌為:" HorizontalAlignment="Left" Height="25" Margin="24,312,0,0" VerticalAlignment="Top" Width="134"/>
+        <Label Content="選擇你要將這張牌傳給哪位玩家:" HorizontalAlignment="Left" Height="25" Margin="24,385,0,0" VerticalAlignment="Top" Width="191"/>
+        <Button x:Name="p6" Content="未加入" HorizontalAlignment="Left" Height="40" Margin="90,453,0,0" VerticalAlignment="Top" Width="71" Click="assign_player"/>
+        <Button x:Name="p7" Content="未加入" HorizontalAlignment="Left" Height="40" Margin="160,453,0,0" VerticalAlignment="Top" Width="72" Click="assign_player"/>
+        <Button x:Name="p8" Content="未加入" HorizontalAlignment="Left" Height="40" Margin="229,453,0,0" VerticalAlignment="Top" Width="71" Click="assign_player"/>
+        <Label x:Name="Player" HorizontalAlignment="Left" Height="121" Margin="16,96,0,0" VerticalAlignment="Top" Width="139" FontSize="20" FontWeight="Bold" Background="White"/>
+        <DataGrid x:Name="PlayerStatusGrid" Margin="321,34,40,353">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Column1}" ClipboardContentBinding="{x:Null}" Header="玩家"/>
+                <DataGridTextColumn Binding="{Binding Column2}" ClipboardContentBinding="{x:Null}" Header="手牌數"/>
+                <DataGridTextColumn Binding="{Binding Column3}" ClipboardContentBinding="{x:Null}" Header="蟑螂"/>
+                <DataGridTextColumn Binding="{Binding Column4}" ClipboardContentBinding="{x:Null}" Header="老鼠"/>
+                <DataGridTextColumn Binding="{Binding Column5}" ClipboardContentBinding="{x:Null}" Header="蠍子"/>
+                <DataGridTextColumn Binding="{Binding Column6}" ClipboardContentBinding="{x:Null}" Header="蒼蠅"/>
+                <DataGridTextColumn Binding="{Binding Column7}" ClipboardContentBinding="{x:Null}" Header="蟾蜍"/>
+                <DataGridTextColumn Binding="{Binding Column8}" ClipboardContentBinding="{x:Null}" Header="蜘蛛"/>
+                <DataGridTextColumn Binding="{Binding Column9}" ClipboardContentBinding="{x:Null}" Header="蝙蝠"/>
+                <DataGridTextColumn Binding="{Binding Column10}" ClipboardContentBinding="{x:Null}" Header="臭蟲"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Image x:Name="You" Source="Pictures/You.png" HorizontalAlignment="Left" Height="81" Margin="16,223,0,0" VerticalAlignment="Top" Width="157" Visibility="Visible" RenderTransformOrigin="0.117,0.494"/>
+        <TextBox x:Name="textDisplay" Visibility="Hidden" HorizontalAlignment="Left" Height="44" Margin="320,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="362"/>
+    </Grid>
+</Window>

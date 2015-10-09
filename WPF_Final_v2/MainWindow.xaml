@@ -1,0 +1,14 @@
+﻿<Window x:Class="WPF_Final_v2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Kakerlaken Poker" Height="434.697" Width="616.633" Icon="Pictures/icon.jpg" Background="#FFFC6C15">
+    <Grid>
+        <Button Content="創建遊戲" HorizontalAlignment="Left" Height="37" Margin="48,216,0,0" VerticalAlignment="Top" Width="126" Click="Button_Click" Background="#FFDBF788" BorderBrush="#FFE7E8EC" FontSize="16" Foreground="#FF030303"/>
+        <Button Content="加入遊戲" HorizontalAlignment="Left" Height="38" Margin="48,258,0,0" VerticalAlignment="Top" Width="126" Click="Button_Click_1" Background="#FFDBF788" FontSize="16" BorderBrush="#FFE7E8EC"/>
+        <Button Content="結束遊戲" HorizontalAlignment="Left" Height="37" Margin="48,301,0,0" VerticalAlignment="Top" Width="126" Click="Button_Click_2" BorderBrush="#FFE7E8EC" FontSize="16" Background="#FFDBF788"/>
+        <Label Content="德國蟑螂" HorizontalAlignment="Left" Height="83" Margin="25,16,0,0" VerticalAlignment="Top" Width="263" FontSize="60" Foreground="#FFF5D508" FontFamily="Traditional Arabic" Background="Transparent"/>
+        <Label Content="Kakerlaken Poker" HorizontalAlignment="Left" Height="62" Margin="293,43,-69,0" VerticalAlignment="Top" Width="420" FontSize="30" Foreground="#FFF5D20B"/>
+        <Image HorizontalAlignment="Left" Height="277" Margin="214,110,-5,0" VerticalAlignment="Top" Width="400" Source="Pictures/kakerlaken.png"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+﻿<Window x:Class="WPF_Final_v2.ClientJoin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ClientJoin" Height="600" Width="730"
+        Background="#FFF78743">
+    <Grid>
+        <Button x:Name="btnConnect" Content="開始連線" HorizontalAlignment="Left" Height="51" Margin="236,219,0,0" VerticalAlignment="Top" Width="252" Background="#FFDBF788" BorderBrush="#FFE7E8EC" FontSize="16" Foreground="#FF030303" Click="btnConnect_Click"/>
+        <TextBox x:Name="textIP" HorizontalAlignment="Left" Height="21" Margin="260,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
+        <Label Content="Host的IP位址:" HorizontalAlignment="Left" Height="29" Margin="260,93,0,0" VerticalAlignment="Top" Width="190" FontSize="16"/>
+        <Label Content="輸入你的遊戲內ID:" HorizontalAlignment="Left" Height="28" Margin="260,148,0,0" VerticalAlignment="Top" Width="190" FontSize="16"/>
+        <TextBox x:Name="textName" HorizontalAlignment="Left" Height="21" Margin="260,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
+        <Image HorizontalAlignment="Left" Height="250" Margin="106,310,0,0" VerticalAlignment="Top" Width="518" Source="Pictures/client_join.jpg"/>
+
+    </Grid>
+</Window>
